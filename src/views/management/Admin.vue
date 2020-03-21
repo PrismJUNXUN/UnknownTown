@@ -1,10 +1,12 @@
 <template>
-  
+  <div>
+    <h2>这个是管理页</h2>
+  </div>
 </template>
 
 <script>
   export default {
-    name: "NavigationBar"
+    name: "Admin"
   }
 </script>
 
