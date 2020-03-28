@@ -3,15 +3,16 @@
     <router-view></router-view>
   </div>
 </template>
-<script>
-  import $ from 'jquery';
-  export default {
-    name: 'App',
-    components:{
-    }
-  }
 
+<script>
+  import $ from 'jquery'
+export default {
+  name: 'app',
+  components: {
+  }
+}
 </script>
+
 <style>
   body.bg-login {
     background: url("./assets/img/management/login_bg.png") no-repeat center center fixed;

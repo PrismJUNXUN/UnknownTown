@@ -65,13 +65,16 @@
           params:loginParams
         })
             .then(res=>{
-          if (res.code === 1){
-             this.isShow = true;
-          }else if (res.code ===0){
-            this.loginStatus = true;
-            this.$router.push('/admin')
-          }
-        }).catch(err=>{
+              if (res.code === 1){
+                this.isShow = true;
+              }else if (res.code ===0){
+                sessionStorage.setItem('isLogin','true');
+                sessionStorage.setItem('nickname',res.data.nickname);
+                sessionStorage.setItem('avatar',res.data.avatar);
+                this.loginStatus = true;
+                this.$router.push('/admin')
+              }
+            }).catch(err=>{
           this.isShow = true
         })
       }
