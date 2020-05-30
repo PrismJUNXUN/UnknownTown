@@ -1,0 +1,200 @@
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  position: relative;
+  margin: 1.5rem 0 1.5rem 0;
+  color: #344c67;
+  font-weight: bold;
+}
+table {
+  margin: 10px 0 15px 0;
+  border-collapse: collapse;
+  font-family: "微软雅黑 Light",等线, sans-serif;
+  line-height: 2;
+  font-size: 14px;
+}
+
+thead{
+  background: #ebf5f5;
+}
+td,th {
+  border: 1px solid #e2e2e2;
+  padding: 3px 10px;
+}
+th {
+  padding: 5px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #49b1f5;
+}
+
+a img {
+  border: none;
+}
+p {
+  margin: 0 0 0.8rem 0;
+  font-size: 15px;
+  line-height: 2;
+  color: #4c4948;
+  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+strong{
+
+}
+h1 {
+  margin-bottom: 18px;
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 13px;
+}
+hr {
+  margin: 0 0 19px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+blockquote {
+  padding: 0.1rem 0.8rem;
+  border-left: 0.2rem solid #49b1f5;
+  color: #6a737d;
+  background-color: #e9f5fe;
+  margin: 0 0 1.3rem 0;
+  border-radius: 2px;
+}
+
+blockquote p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0.5rem 0;
+  line-height: 2;
+}
+blockquote ol{
+  margin: 0.5rem 0;
+  padding: 0.1rem 0.8rem;
+}
+blockquote ul{
+  margin: 0.5rem 0;
+  padding: 0.1rem 0.8rem;
+}
+blockquote li{
+  font-size: 14px;
+  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4c4948;
+  margin: 0;
+  padding: 0;
+}
+code, pre {
+  font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+  padding: 0.1rem 0.2rem;
+  background: rgba(27,31,35,0.05);
+  color: #57a5ef;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+pre {
+  position: relative;
+  line-height: 1.6;
+  margin:30px 0;
+  font-size: 15px;
+  max-width: 100%;
+  text-shadow: none;
+  color: rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 20px 0px;
+  background: rgb(42, 42, 52);
+  border-radius: 5px;
+  overflow: auto;
+  padding: 20px;
+  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  display: block;
+
+}
+pre code {
+  color: rgb(255, 255, 255);
+  word-break: break-word;
+  text-shadow: none;
+  padding: 2px;
+  font-size: 12px;
+  font-family: "Fira Code", serif;
+  border-radius: 0 0 5px 5px;
+}
+pre code::-webkit-scrollbar-thumb {
+  background: #d1991a;
+  border-radius: 3px;
+}
+pre code::-webkit-scrollbar-thumb:hover{
+  background: #d17a13;
+  border-radius: 3px;
+}
+pre code::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+pre code::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+sup {
+  font-size: 0.83em;
+  vertical-align: super;
+  line-height: 0;
+}
+* {
+  -webkit-print-color-adjust: exact;
+}
+img{
+  margin: 0 auto 0.8rem;
+  display: block;
+  padding: 4px;
+  max-width: 100%;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul {
+  margin-top: 0.4rem;
+  counter-reset: li;
+  color: #4c4948;
+}
+ul ul{
+  padding-left: 0.5rem;
+}
+li{
+  position: relative;
+  margin: 0.3rem 0;
+  padding-left: 0.3rem;
+  font-size: 1em;
+  font-family:  Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #4c4948;
+  line-height: 2;
+}
+
+/*@media screen and (min-width: 914px) {*/
+/*  body {*/
+/*    width: 854px;*/
+/*    margin:10px auto;*/
+/*  }*/
+/*}*/
+@media print {
+  body,code,pre code,h1,h2,h3,h4,h5,h6 {
+    color: black;
+  }
+  table, pre {
+    page-break-inside: avoid;
+  }
+}
+
