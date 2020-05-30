@@ -34,7 +34,7 @@
 <script>
   import {request} from "../../../network/request";
   import {format} from "../../../common/ultils";
-  import PictureWall from "../../../components/front_end/PictureWall";
+  import PictureWall from "../../../components/font_end/PictureWall";
 
   export default {
     name: "BlogsType",

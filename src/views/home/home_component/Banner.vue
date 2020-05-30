@@ -25,7 +25,7 @@
 
 <script>
   import $ from "jquery"
-  import WaveText from "../../../components/front_end/WaveText";
+  import WaveText from "../../../components/font_end/WaveText";
   export default {
     name: "Banner",
     components: {WaveText},

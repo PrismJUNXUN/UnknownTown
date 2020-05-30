@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import NavigationBar from "../../components/front_end/NavigationBar";
+  import NavigationBar from "../../components/font_end/NavigationBar";
   import Banner from "./home_component/Banner";
   import HomeContent from "./home_component/HomeContent";
 
