@@ -14,7 +14,7 @@
     "git": "^0.1.5",
     "highlight.js": "^10.4.1",
     "http-proxy-middleware": "^1.0.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mavon-editor": "^2.7.7",
     "vue": "^2.6.11",
     "vue-highlight.js": "^3.1.0",
